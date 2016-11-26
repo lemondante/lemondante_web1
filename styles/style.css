@@ -7,7 +7,6 @@ element.style
 
 body
 {
-    margin: 0;
     font-size: 12px;
 }
 
@@ -24,7 +23,11 @@ div.container
 
 div.header
 {
+    top:0;
+    left:0;
+    position: absolute;
     height: 62px;
+    width:100%;
     overflow: hidden;
     background-color: #EFF4F9;
     zoom: 1;
@@ -61,27 +64,63 @@ div.all_container
     min-height: 372px;
     padding-top: 40px;
     position: relative;
+    height: 600px;
+    width: 100%;
 
-    /*float: right;*/
-    /*border: 1px solid #a0b1c4;*/
-    /*width: 334px;*/
-    /*height: 387px;*/
-    /*_height: 371px;*/
-    /*background-color: #fff;*/
-    /*position: relative;*/
-    /*z-index: 12;*/
-    /*padding: 0;*/
-    /*border-radius: 5px;*/
-    /*overflow: hidden;*/
 }
 
 img.mj_picture
 {
     position: absolute;
-    left: 0;
+    margin-top: -200px;
+    margin-left: -450px;
+    left: 50%;
     right: 0;
-    top: 0;
-    height: 400px;
-    _width: 100%;
+    top: 50%;
+}
+
+div.login
+{
+    border: 1px solid #a0b1c4;
+    height: 387px;
+    width:334px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -250px;
+    left: 50%;
+    right: 0;
+    top: 50%;
+}
+
+div.footer
+{
+    width:100%;
+    position: absolute;
+    left:0;
+    height: 37px;
+    overflow: hidden;
+    background-color: #EFF4F9;
+    zoom: 1;
+    border-bottom: 1px solid #d6dfea;
+    bottom: 0;
+}
+
+div.text_foot
+{
+    width:100%;
+    position: absolute;
+    margin:auto 30% auto 32%;
+    top:35%;
+}
+
+iframe.frame
+{
+    height: 100%;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+
 
 }
